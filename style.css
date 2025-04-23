@@ -1,0 +1,327 @@
+/* style to header section */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Cairo', sans-serif;
+}
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+}
+
+
+/* style to hero section */
+/* Animation Keyframes */
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+}
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Animation Classes */
+.animate-gradient {
+    animation: gradient 8s ease infinite;
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+.animate-fadeInDown {
+    animation: fadeInDown 1s ease-out;
+}
+
+.animate-fadeInUp {
+    animation: fadeInUp 1s ease-out;
+}
+
+.animate-fadeIn {
+    animation: fadeIn 1s ease-out;
+}
+
+.animation-delay-200 {
+    animation-delay: 0.2s;
+}
+
+.animation-delay-300 {
+    animation-delay: 0.3s;
+}
+
+.animation-delay-500 {
+    animation-delay: 0.5s;
+}
+
+.animation-delay-700 {
+    animation-delay: 0.7s;
+}
+
+.animation-delay-1000 {
+    animation-delay: 1s;
+}
+
+.animation-delay-1500 {
+    animation-delay: 1.5s;
+}
+
+.scroll-trigger.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* style to services section */
+
+/* تأثيرات البطاقات */
+.service-card {
+    background: white;
+    border-radius: 16px;
+    padding: 32px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(50, 142, 110, 0.08);
+    transition: all 0.4s ease;
+    border: 1px solid rgba(103, 174, 110, 0.1);
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(50, 142, 110, 0.15);
+    border-color: rgba(103, 174, 110, 0.3);
+}
+
+.service-card:hover .icon-container {
+    background: linear-gradient(135deg, #67AE6E 0%, #328E6E 100%);
+}
+
+.service-card:hover svg {
+    color: white !important;
+}
+
+/* تأثيرات التمرير */
+.scroll-trigger.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* تأخيرات الحركة */
+.animation-delay-200 {
+    animation-delay: 0.2s;
+}
+
+.animation-delay-400 {
+    animation-delay: 0.4s;
+}
+
+.animation-delay-600 {
+    animation-delay: 0.6s;
+}
+
+.animation-delay-800 {
+    animation-delay: 0.8s;
+}
+
+.animation-delay-1000 {
+    animation-delay: 1s;
+}
+
+/* style to doctors section */
+
+/* تأثيرات البطاقات */
+.doctor-card {
+    transition: all 0.5s ease;
+}
+
+.doctor-card:hover {
+    transform: translateY(-5px);
+}
+
+/* تأثيرات التمرير */
+.scroll-trigger.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* تأخيرات الحركة */
+.animation-delay-200 {
+    transition-delay: 0.2s;
+}
+
+.animation-delay-400 {
+    transition-delay: 0.4s;
+}
+
+.animation-delay-600 {
+    transition-delay: 0.6s;
+}
+
+.animation-delay-800 {
+    transition-delay: 0.8s;
+}
+
+/* تأثير التدرج الخلفي */
+.bg-gradient-to-b {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+/* style to why choose us section */
+
+/* تأثيرات التمرير */
+.scroll-trigger.active {
+    opacity: 1;
+    transform: translateX(0) translateY(0);
+}
+
+/* تأثيرات العناصر */
+.feature-item:hover {
+    transform: translateY(-5px);
+}
+
+/* تأخيرات الحركة */
+.animation-delay-200 {
+    transition-delay: 0.2s;
+}
+
+.animation-delay-300 {
+    transition-delay: 0.3s;
+}
+
+.animation-delay-400 {
+    transition-delay: 0.4s;
+}
+
+.animation-delay-600 {
+    transition-delay: 0.6s;
+}
+
+.animation-delay-800 {
+    transition-delay: 0.8s;
+}
+
+/* style to testimonials section */
+    
+
+/* تأثيرات ثلاثية الأبعاد */
+.perspective-1000 {
+    perspective: 1000px;
+}
+
+.transform-style-preserve-3d {
+    transform-style: preserve-3d;
+}
+
+.hover\:rotate-y-15:hover {
+    transform: rotateY(15deg);
+}
+
+/* تأثيرات التمرير */
+.scroll-trigger.active {
+    opacity: 1;
+    transform: translateY(0) rotateY(0);
+}
+
+/* تأخيرات الحركة */
+.animation-delay-200 {
+    transition-delay: 0.2s;
+}
+
+.animation-delay-400 {
+    transition-delay: 0.4s;
+}
+
+.animation-delay-600 {
+    transition-delay: 0.6s;
+}
+
+/* style to contact section */
+/* تأثيرات الحركة */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+.animation-delay-0 {
+    animation-delay: 0s;
+}
+
+.animation-delay-1000 {
+    animation-delay: 1s;
+}
+
+.animation-delay-2000 {
+    animation-delay: 2s;
+}
+
+/* تأثيرات التمرير */
+.scroll-trigger.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.animation-delay-200 {
+    transition-delay: 0.2s;
+}
+
+/* تأثيرات الخلفية */
+.backdrop-blur-sm {
+    backdrop-filter: blur(5px);
+}
+
+
+/* style to footer section */
+  /* تأثيرات الحركة */
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+} 
+
+/* تأثيرات التحوم */
+.hover-underline {
+    position: relative;
+}
+
+.hover-underline:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #E1EEBC;
+    transition: width 0.3s ease;
+}
+
+.hover-underline:hover:after {
+    width: 100%;
+}
+
+
+
+
+
+
